@@ -1,0 +1,114 @@
+@import "./reset.css";
+
+input, form button {
+    height: 40px;
+}
+form button {
+    width: 100px;
+}
+input {
+    width: 190px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.todos, h1 {
+    margin: 10px;
+}
+body {
+    background-color: #F4F4F4;
+    min-height: 100vh;
+}
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.x, .to-check {
+    border: 1px solid #333;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: auto 0;
+    height: 30px;
+    width: 30px;
+}
+.x {
+    margin-left: auto;
+    margin-right: 10px;
+}
+.to-check {
+    margin-left: 10px;
+    margin-right: auto;
+}
+.btn, .todo, input, form button {
+    border-radius: 8px;
+}
+.todo {
+    align-items: center;
+    background-color: #ddd;
+    min-height: 60px;
+    justify-content: center;
+    margin: 5px 0;
+    word-wrap: break-word;
+}
+.todo .fa-times,
+.todo .fa-check {
+    font-size: 30px;
+    line-height: 28px;
+    margin: auto;
+    text-align: center;
+}
+p {
+    max-width: 160px;
+}
+.todo p {
+    margin: 0 20px;
+}
+.row {
+    flex-direction: row;
+}
+.row,.col {
+    display: flex;
+}
+.td-selected  p{
+    text-decoration: line-through;
+}
+.buttons p {
+    margin-right: 5px;
+}
+.btn {
+    align-self: center;
+    border: 1px solid #000;
+    min-height: 20px;
+    margin: 0 5px;
+    min-width: 50px;
+    padding: 2px 4px;
+    text-align: center;
+}
+.btn-selected {
+    background-color: #ddd;
+}
+.col {
+    flex-direction: column;
+}
+form { 
+    margin: 10px 0;
+}
+h1 {
+    color: rgb(39, 38, 34);
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+.buttons,
+.todo,
+h1,
+form {
+    width: 290px;
+}
+.buttons button {
+    line-height: 40px;
+}
